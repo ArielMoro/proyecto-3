@@ -1,0 +1,14 @@
+@import "globals";
+@import "index";
+@import "tour";
+@import "discografia";
+@import "galeria";
+@import "contactos";
+@import "footer";
+@import "media";
+
+.galeria-imagen-1 {
+  object-fit: cover;
+  display: grid;
+  grid-template-columns: auto;
+}

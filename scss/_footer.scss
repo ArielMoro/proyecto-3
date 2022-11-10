@@ -1,0 +1,31 @@
+.footer {
+  background-color: #5f9df7;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-footer {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+}
+.buscanos-footer {
+  margin: 0px 0px 25px 0px;
+}
+.iconos-footer {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+}
+.footer-contacto {
+  background-color: #5da7db;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,48 @@
+.tour-mundo {
+  text-align: start;
+  font-family: sans-serif;
+  /* padding: 10px;
+    margin: 10px; */
+}
+.main-1 {
+  position: relative;
+  background-color: black;
+}
+.duki-imagen {
+  height: 400px;
+  width: 100%;
+}
+.giras {
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+button {
+  padding: 1px;
+  margin: 10px;
+  background: linear-gradient(to right, #256d85, #47b5ff);
+}
+.giras-mundo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+.intro-section-tour {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
+article {
+  background-color: black;
+  color: white;
+}

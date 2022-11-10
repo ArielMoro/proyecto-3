@@ -1,0 +1,233 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.section-index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lead {
+  color: white;
+}
+.titule {
+  color: #47b5ff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+img {
+  box-shadow: 0px 0px 5px 5px #5f9df7;
+}
+img:hover {
+  opacity: 0.75;
+  color: #5f9df7;
+}
+.section-intro {
+  color: white;
+}
+.section-index {
+  padding: 40px;
+  margin: 30px;
+}
+.duki-titulo {
+  color: white;
+}
+.parrafo-index {
+  color: white;
+}
+
+/* TOUR */
+.tour-mundo {
+  text-align: start;
+  font-family: sans-serif;
+  /* padding: 10px;
+  margin: 10px; */
+}
+.main-1 {
+  position: relative;
+
+  background-color: black;
+}
+.duki-imagen {
+  height: 400px;
+  width: 100%;
+}
+.giras {
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+button {
+  padding: 1px;
+  margin: 10px;
+  background: linear-gradient(to right, #256d85, #47b5ff);
+}
+.giras-mundo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+.intro-section-tour {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
+article {
+  background-color: black;
+  color: white;
+}
+/* discografia */
+
+.titulo-discografia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 60px;
+  margin: 0px;
+  background-color: black;
+}
+.h1-discografia {
+  background-color: #5f9df7;
+  padding: 50px;
+  margin: 20px;
+
+  border-radius: 2rem;
+  background-image: linear-gradient(#7de5ed, #5da7db);
+}
+.row-discografia {
+  display: flex;
+  justify-content: space-between;
+}
+.section-discografia {
+  padding: 100px;
+
+  background-color: black;
+}
+/* Galeria */
+.galeria-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  padding: 1rem;
+  text-align: center;
+  grid-gap: 10px;
+}
+.galeria-items:nth-child(1) {
+  grid-column-start: span 3;
+}
+.galeria-items:nth-child(5) {
+  grid-column-start: span 3;
+}
+
+.galeria-imagen-1 {
+  width: 70%;
+  height: 90%;
+}
+.galeria-imagen-2 {
+  width: 70%;
+  height: 90%;
+}
+.galeria-imagen-3 {
+  width: 70%;
+  height: 90%;
+}
+.galeria-imagen-4 {
+  width: 70%;
+  height: 90%;
+}
+.galeria-imagen-5 {
+  width: 70%;
+  height: 90%;
+}
+.titulo-galeria {
+  color: white;
+  margin: 30px;
+  padding: 40px;
+}
+.titulo-video {
+  padding: 60px;
+  color: white;
+}
+
+.videos-galeria {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+@media (min-width: 768px) {
+  .galeria-container {
+    grid-template-columns: repeat(1);
+    margin: auto;
+  }
+}
+
+/* contactos */
+.formulario-registro {
+  width: 400px;
+  color: white;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+}
+.controles {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 5px solid #5f9df7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+/* footer */
+.footer {
+  background-color: #5f9df7;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-footer {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+}
+.buscanos-footer {
+  margin: 0px 0px 25px 0px;
+}
+.iconos-footer {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+}
+.footer-contacto {
+  background-color: #5da7db;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

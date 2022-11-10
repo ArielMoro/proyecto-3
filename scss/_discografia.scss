@@ -1,0 +1,27 @@
+.titulo-discografia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 60px;
+  margin: 0px;
+  background-color: black;
+}
+.h1-discografia {
+  background-color: #5f9df7;
+  padding: 50px;
+  margin: 20px;
+
+  border-radius: 2rem;
+  background-image: linear-gradient(#7de5ed, #5da7db);
+}
+.row-discografia {
+  display: flex;
+  justify-content: space-between;
+}
+.section-discografia {
+  padding: 100px;
+
+  background-color: black;
+}
