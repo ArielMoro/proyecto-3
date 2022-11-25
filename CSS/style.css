@@ -3,6 +3,21 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.m-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fotoindex {
+  width: 100%;
+}
+
+.main-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .section-index {
   display: flex;
   justify-content: space-between;
@@ -15,7 +30,7 @@
   color: #47b5ff;
 }
 
-.row {
+.row-galeria {
   display: flex;
   flex-wrap: wrap;
   margin-left: 15px;
@@ -57,7 +72,7 @@ img:hover {
 }
 .duki-imagen {
   height: 400px;
-  width: 100%;
+  width: 75%;
 }
 .giras {
   text-align: center;
@@ -113,7 +128,7 @@ article {
   border-radius: 2rem;
   background-image: linear-gradient(#7de5ed, #5da7db);
 }
-.row-discografia {
+.row {
   display: flex;
   justify-content: space-between;
 }
@@ -122,65 +137,19 @@ article {
 
   background-color: black;
 }
-/* Galeria */
-.galeria-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 250px;
-  padding: 1rem;
-  text-align: center;
-  grid-gap: 10px;
-}
-.galeria-items:nth-child(1) {
-  grid-column-start: span 3;
-}
-.galeria-items:nth-child(5) {
-  grid-column-start: span 3;
-}
 
-.galeria-imagen-1 {
-  width: 70%;
-  height: 90%;
+/* galeria 2 */
+#galeria img {
+  width: 100%;
+  height: 350px;
 }
-.galeria-imagen-2 {
-  width: 70%;
-  height: 90%;
+#galeria .col-lg-6 {
+  padding: 25px;
+  margin: 0 !important;
 }
-.galeria-imagen-3 {
-  width: 70%;
-  height: 90%;
-}
-.galeria-imagen-4 {
-  width: 70%;
-  height: 90%;
-}
-.galeria-imagen-5 {
-  width: 70%;
-  height: 90%;
-}
-.titulo-galeria {
-  color: white;
-  margin: 30px;
-  padding: 40px;
-}
-.titulo-video {
-  padding: 60px;
+.text-center {
   color: white;
 }
-
-.videos-galeria {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  margin: 20px;
-}
-@media (min-width: 768px) {
-  .galeria-container {
-    grid-template-columns: repeat(1);
-    margin: auto;
-  }
-}
-
 /* contactos */
 .formulario-registro {
   width: 400px;
@@ -199,6 +168,15 @@ article {
   font-size: 18px;
 }
 /* footer */
+.footer-index {
+  background-color: #47b5ff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
 .footer {
   background-color: #5f9df7;
   color: white;
